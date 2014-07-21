@@ -1,0 +1,14 @@
+{
+  "name": "fs-landing_page-test",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Susan Brown",
+      "email": "sbrwn.sb@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "selectize": "~0.10.1",
+    "slidr": "~0.5.0"
+  }
+}
