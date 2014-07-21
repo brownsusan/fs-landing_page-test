@@ -82,7 +82,12 @@ input[type=submit]{
 	background: #c64f12;
 	color: #fff;
 	font-family: 'Francois One', sans-serif;
+	font-size: 14px;
 	margin: 20px 0;
+}
+
+label{
+	font-size: 12px;
 }
 
 #main-feature{
