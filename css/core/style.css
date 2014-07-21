@@ -4,21 +4,21 @@
  License: none (public domain)
  */
 
-/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}*/
+}
 /* HTML5 display-role reset for older browsers */
-/*article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	background-color: none;
-	line-height: 1;
+	line-height: 1.5em;
 }
 ol, ul {
 	list-style: none;
@@ -33,12 +33,90 @@ blockquote:before, blockquote:after, q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}*/
+}
 
 /* ---------------------------------------------------------- */
 /* ---------------------------------------------------------- */
 /* ------------------------ END RESET ----------------------- */
 /* ---------------------------------------------------------- */
 /* ---------------------------------------------------------- */
+a{
+	color: #f16020;
+}
+
+footer{
+	font-size: 10px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+footer, header{
+	background: #333327;
+}
+
+header{
+	height: 50px;
+	line-height: 50px;
+}
+
+header h1{
+	text-indent: -9999px;
+}
+
+html{
+	background: #fff;
+	color: #7d7d7d;
+	font: 14px Arial, sans-serif;
+}
+
+input{
+	background: #efefef;
+	border: none;
+	display: block;
+	width: 100%;
+}
+
+input[type=submit]{
+	background: #c64f12;
+	color: #fff;
+	font-family: 'Francois One', sans-serif;
+}
+
+.areas-of-focus{
+	background: #d4d4d4;
+}
+
+.areas-of-focus, footer, .degree-overview, .online-experience{
+	padding-bottom: 60px;
+}
+
+.online-experience{
+	background: #b1b1b1;
+	color: #595959;
+}
+
+.request-info{
+	background: #383421;
+	color: #f7f6f6;
+	font-family: 'Francois One';
+	padding: 20px 0;
+}
+
+.request-info h2, .request-info p, .request-info form{
+	margin: 0 20px;
+}
+
+.request-info p{
+	font-family: 'Verdana', sans-serif;
+}
+
+.request-info h2, .request-info input[type=submit]{
+	text-transform: uppercase;
+}
+
+.row{
+	margin-bottom: 0;
+}
+
 
 /*Remove Slider When Working with Mobile. Easier to Scroll up and down than user a slider on mobile*/
