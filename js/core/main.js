@@ -14,6 +14,6 @@ var moveContent = function() {
 	var height = $('#main-feature').css('height');
 	var bgImgHt = parseInt(height);
 	$('.degree-description').css('margin-top', bgImgHt+30);
-	console.log(bgImgHt);
-	$('.degree-name').css('position', 'absolute').css('top', bgImgHt-95);
+	console.log('HEY' + $('.degree-name').height());
+	$('.degree-name').css('position', 'absolute').css('top', bgImgHt-25-$('.degree-name').height());
 };
