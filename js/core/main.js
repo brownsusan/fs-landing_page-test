@@ -7,6 +7,9 @@ $(document).ready(function() {
 	var headerHeight = $('header').height(), logoHeight = $('header img').height();
 	var logoMargin = (headerHeight - logoHeight)/2;
 	$('header img').css('margin-top', logoMargin);
+	
+	var selectHeight = $('select').height();
+	$('select').css('background-size', selectHeight);
 });
 
 $(window).resize(function() {

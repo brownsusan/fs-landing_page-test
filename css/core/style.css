@@ -74,8 +74,8 @@ input, select{
 	border-radius: 2px;
 	display: block;
 	height: 30px;
-	width: 100%;
 	margin-bottom: 10px;
+	width: 100%;
 }
 
 input[type=submit]{
@@ -88,6 +88,12 @@ input[type=submit]{
 
 label{
 	font-size: 12px;
+}
+
+select{
+	line-height: 1;
+	-webkit-appearance: none;
+	background: url('/img/select-arrow.png') no-repeat right #fff; 
 }
 
 #main-feature{
