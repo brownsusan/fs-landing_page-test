@@ -40,35 +40,35 @@ table {
 /* ------------------------ END RESET ----------------------- */
 /* ---------------------------------------------------------- */
 /* ---------------------------------------------------------- */
-a{
+a {
 	color: #f16020;
 }
 
-footer{
+footer {
 	font-size: 10px;
 	text-align: center;
 	padding-top: 60px;
 }
 
-footer, header{
+footer, header {
 	background: #333327;
 }
 
-header{
+header {
 	height: 50px;
 }
 
-header h1{
+header h1 {
 	text-indent: -9999px;
 }
 
-html{
+html {
 	background: #fff;
 	color: #7d7d7d;
 	font: 14px Arial, sans-serif;
 }
 
-input, select{
+input, select {
 	background: #efefef;
 	border: none;
 	border-radius: 2px;
@@ -78,7 +78,7 @@ input, select{
 	width: 100%;
 }
 
-input[type=submit]{
+input[type=submit] {
 	background: #c64f12;
 	color: #fff;
 	font-family: 'Francois One', sans-serif;
@@ -86,36 +86,36 @@ input[type=submit]{
 	margin: 20px 0;
 }
 
-label{
+label {
 	font-size: 12px;
 }
 
-select{
+select {
+	background: url('/img/select-arrow.png') no-repeat right #fff;
 	line-height: 1;
 	-webkit-appearance: none;
-	background: url('/img/select-arrow.png') no-repeat right #fff; 
 }
 
-#main-feature{
+#main-feature {
 	position: absolute;
 	top: 50;
 	left: 0;
 	width: 100%
 }
 
-#main-feature *{
+#main-feature * {
 	width: 100%
 }
 
-.areas-of-focus{
+.areas-of-focus {
 	background: #d4d4d4;
 }
 
-.areas-of-focus .one-third{
+.areas-of-focus .one-third {
 	margin-top: -30px;
 }
 
-.areas-of-focus img{
+.areas-of-focus img {
 	display: block;
 	border: 13px #D4D4D4 solid;
 	border-radius: 60px;
@@ -125,46 +125,50 @@ select{
 	margin: 0 auto;
 }
 
-.areas-of-focus, footer, .degree-overview, .online-experience{
+.areas-of-focus, footer, .online-experience {
 	padding-bottom: 60px;
 }
 
-.degree-name{
+.degree-overview {
+	padding-bottom: 100px;
+}
+
+.degree-name {
 	background-color: rgba(26,26,26,0.8);
 	width: 287px;
 }
 
-.degree-name p{
+.degree-name p {
 	margin: 0 30px 15px 30px;
 	font: 18.06px Arial, Helvetica, sans-serif bold;
 	color: #fff;
 }
 
-.degree-name span{
+.degree-name span {
 	font-style: italic;
 }
 
-.degree-name h1{
+.degree-name h1 {
 	color: #fff;
 	font: 22.07px Arial, Helvetica, sans-serif bold;
 	margin: 15px 30px 0 30px;
 }
 
-.degree-description h2{
+.degree-description h2 {
 	color: #444444;
 	font: 30.04px 'Open Sans', sans-serif;
 }
 
-.degree-description p{
+.degree-description p {
 	margin-bottom: 20px;
 }
 
-.online-experience{
+.online-experience {
 	background: #b1b1b1;
 	color: #595959;
 }
 
-.request-info{
+.request-info {
 	background: #383421;
 	color: #f7f6f6;
 	font-family: 'Francois One';
@@ -172,28 +176,26 @@ select{
 	padding: 20px 0;
 }
 
-
-.request-info h2, .request-info p, .request-info form{
+.request-info h2, .request-info p, .request-info form {
 	margin: 0 20px;
 }
 
-.request-info h2{
+.request-info h2 {
 	display: block;
 	margin-bottom: 20px;
 }
-.request-info p{
+.request-info p {
 	font-family: 'Verdana', sans-serif;
 	font-size: 10px;
 	line-height: 1.2em;
 }
 
-.request-info h2, .request-info input[type=submit]{
+.request-info h2, .request-info input[type=submit] {
 	text-transform: uppercase;
 }
 
-.row{
+.row {
 	margin-bottom: 0;
 }
-
 
 /*Remove Slider When Working with Mobile. Easier to Scroll up and down than user a slider on mobile*/
