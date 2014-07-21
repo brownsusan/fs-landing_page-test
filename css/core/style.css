@@ -72,8 +72,11 @@ html{
 input{
 	background: #efefef;
 	border: none;
+	border-radius: 2px;
 	display: block;
+	height: 20px;
 	width: 100%;
+	margin-bottom: 10px;
 }
 
 input[type=submit]{
@@ -97,8 +100,33 @@ input[type=submit]{
 	background: #d4d4d4;
 }
 
+.areas-of-focus .one-third{
+	margin-top: -30px;
+}
+
+.areas-of-focus img{
+	display: block;
+	border: 13px #D4D4D4 solid;
+	border-radius: 60px;
+	width: 81px;
+	height: 81px;
+	background: #fff;
+	margin: 0 auto;
+}
+
 .areas-of-focus, footer, .degree-overview, .online-experience{
 	padding-bottom: 60px;
+}
+
+.degree-name{
+	background-color: rgba(26,26,26,0.8);
+	height: 73px;
+	width: 287px;
+}
+
+.degree-description h2{
+	color: #444444;
+	font: 30.04px 'Open Sans', sans-serif;
 }
 
 .online-experience{
@@ -110,6 +138,7 @@ input[type=submit]{
 	background: #383421;
 	color: #f7f6f6;
 	font-family: 'Francois One';
+	margin-top: 40px;
 	padding: 20px 0;
 }
 

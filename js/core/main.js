@@ -2,18 +2,18 @@
 // Input padding with javascript
 
 $(document).ready(function() {
-	moveDescription();
-
+	moveContent();
 });
 
 $(window).resize(function() {
-	moveDescription();
+	moveContent();
 });
 
-
-var moveDescription = function() {
+var moveContent = function() {
 	//Need to reset css here when the window is scaled back up past the media queries
-	var bgImgHt = $('#main-feature').css('height');
-	$('.degree-description').css('margin-top', bgImgHt);
-
+	var height = $('#main-feature').css('height');
+	var bgImgHt = parseInt(height);
+	$('.degree-description').css('margin-top', bgImgHt+30);
+	console.log(bgImgHt);
+	$('.degree-name').css('position', 'absolute').css('top', bgImgHt-95);
 };
