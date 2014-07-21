@@ -3,6 +3,11 @@
 
 $(document).ready(function() {
 	moveContent();
+	
+	var headerHeight = $('header').height(), logoHeight = $('header img').height();
+	var logoMargin = (headerHeight - logoHeight)/2;
+	console.log(logoMargin);
+	$('header img').css('margin-top', logoMargin);
 });
 
 $(window).resize(function() {
