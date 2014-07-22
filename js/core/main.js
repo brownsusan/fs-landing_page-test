@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 	slidr.create('slidr-ul', {
 		breadcrumbs : true,
-		controls : 'corner',
+		controls : 'border',
 		direction : 'horizontal',
 		fade : false,
 		keyboard : true,

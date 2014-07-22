@@ -220,4 +220,25 @@ select {
 	width: 100%;
 }
 
+/*SLIDR OVERRIDES*/
+aside[id="slidr-ul-breadcrumbs"] {
+  right: 50% !important;
+  margin-right: -41px !important;
+}
+
+aside[id="slidr-ul-breadcrumbs"] .slidr-breadcrumbs li {
+  width: 10px !important;
+  height: 10px !important;
+  margin: 15px !important;
+}
+
+aside[id="slidr-ul-breadcrumbs"] .slidr-breadcrumbs li.normal {
+  border: none !important;
+  background-color: #fff !important;
+}
+
+aside[id="slidr-ul-breadcrumbs"] .slidr-breadcrumbs li.active {
+  background-color: #595959 !important;
+}
+
 /*Remove Slider When Working with Mobile. Easier to Scroll up and down than user a slider on mobile*/
