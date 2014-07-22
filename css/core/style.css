@@ -186,6 +186,35 @@ select {
 	padding-top: 20px;
 }
 
+.online-experience h2{
+	color:#fff;
+	font-size: 18px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+.online-experience h3{
+	font-size: 24px;
+}
+
+.online-experience li{
+	font: 16px 'Arial', sans-serif;
+}
+
+.online-experience span{
+	display: block;
+	font-size: 16px;
+}
+
+.online-experience h2, .online-experience h3, .online-experience span{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.online-experience li, .online-experience span{
+	margin-bottom: 20px;
+}
+
 .request-info {
 	background: #383421;
 	color: #f7f6f6;
