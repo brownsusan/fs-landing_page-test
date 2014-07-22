@@ -111,10 +111,6 @@ select {
 	background: #d4d4d4;
 }
 
-.areas-of-focus .one-third {
-	margin-top: -30px;
-}
-
 .areas-of-focus h3 {
 	color: #444;
 	font-size: 20px;
@@ -134,6 +130,10 @@ select {
 	margin: 0 auto;
 }
 
+.areas-of-focus .one-third {
+	margin-top: -30px;
+}
+
 .areas-of-focus, footer, .online-experience, .areas-of-focus-heading {
 	padding-bottom: 60px;
 }
@@ -148,9 +148,24 @@ select {
 	margin-top: 1.5%;
 }
 
+.degree-description h2 {
+	color: #444444;
+	font: 30.04px 'Open Sans', sans-serif;
+}
+
+.degree-description p {
+	margin-bottom: 20px;
+}
+
 .degree-name {
 	background-color: rgba(26,26,26,0.8);
 	width: 287px;
+}
+
+.degree-name h1 {
+	color: #fff;
+	font: 22.07px Arial, Helvetica, sans-serif bold;
+	margin: 15px 30px 0 30px;
 }
 
 .degree-name p {
@@ -161,21 +176,6 @@ select {
 
 .degree-name span {
 	font-style: italic;
-}
-
-.degree-name h1 {
-	color: #fff;
-	font: 22.07px Arial, Helvetica, sans-serif bold;
-	margin: 15px 30px 0 30px;
-}
-
-.degree-description h2 {
-	color: #444444;
-	font: 30.04px 'Open Sans', sans-serif;
-}
-
-.degree-description p {
-	margin-bottom: 20px;
 }
 
 .degree-overview {
@@ -225,10 +225,6 @@ select {
 	padding: 20px 0;
 }
 
-.request-info h2, .request-info p, .request-info form {
-	margin: 0 20px;
-}
-
 .request-info h2 {
 	display: block;
 	margin-bottom: 20px;
@@ -241,6 +237,10 @@ select {
 
 .request-info h2, .request-info input[type=submit] {
 	text-transform: uppercase;
+}
+
+.request-info h2, .request-info p, .request-info form {
+	margin: 0 20px;
 }
 
 .row {
