@@ -138,12 +138,14 @@ select {
 	padding-bottom: 60px;
 }
 
-.areas-of-focus-heading {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
-	font-weight: bold;
+.areas-of-focus-heading h2 {
+	font: 24px 'Open Sans', sans-serif bold;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.areas-of-focus-heading img {
+	margin-top: 1.5%;
 }
 
 .degree-name {
