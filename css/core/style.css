@@ -91,7 +91,7 @@ label {
 }
 
 select {
-	background: url('/img/select-arrow.png') no-repeat right #fff;
+	background: url('/img/select-arrow.png') no-repeat right #efefef;
 	line-height: 1;
 	-webkit-appearance: none;
 }
@@ -115,6 +115,15 @@ select {
 	margin-top: -30px;
 }
 
+.areas-of-focus h3{
+	color: #444;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+}
+
 .areas-of-focus img {
 	display: block;
 	border: 13px #D4D4D4 solid;
@@ -125,12 +134,16 @@ select {
 	margin: 0 auto;
 }
 
-.areas-of-focus, footer, .online-experience {
+.areas-of-focus, footer, .online-experience, .areas-of-focus-heading {
 	padding-bottom: 60px;
 }
 
-.degree-overview {
-	padding-bottom: 100px;
+.areas-of-focus-heading{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .degree-name {
@@ -163,9 +176,14 @@ select {
 	margin-bottom: 20px;
 }
 
+.degree-overview{
+	margin-bottom: 50px;
+}
+
 .online-experience {
 	background: #b1b1b1;
 	color: #595959;
+	padding-top: 20px;
 }
 
 .request-info {
@@ -196,6 +214,10 @@ select {
 
 .row {
 	margin-bottom: 0;
+}
+
+#slidr-ul{
+	width: 100%;
 }
 
 /*Remove Slider When Working with Mobile. Easier to Scroll up and down than user a slider on mobile*/
