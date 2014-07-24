@@ -9,6 +9,7 @@
   ],
   "dependencies": {
     "selectize": "~0.10.1",
-    "slidr": "~0.5.0"
+    "slidr": "~0.5.0",
+    "select2": "~3.5.1"
   }
 }

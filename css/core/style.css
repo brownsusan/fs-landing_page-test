@@ -90,13 +90,6 @@ label {
 	font-size: 12px;
 }
 
-select {
-	background: url('/img/select-arrow.png') no-repeat right #efefef;
-	line-height: 1;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-}
-
 #main-feature {
 	position: absolute;
 	top: 50;
@@ -189,32 +182,32 @@ select {
 	padding-top: 20px;
 }
 
-.online-experience h2{
-	color:#fff;
+.online-experience h2 {
+	color: #fff;
 	font-size: 18px;
 	margin-bottom: 35px;
 	text-transform: uppercase;
 }
 
-.online-experience h3{
+.online-experience h3 {
 	font-size: 24px;
 }
 
-.online-experience li{
+.online-experience li {
 	font: 16px 'Arial', sans-serif;
 }
 
-.online-experience span{
+.online-experience span {
 	display: block;
 	font-size: 16px;
 }
 
-.online-experience h2, .online-experience h3, .online-experience span{
+.online-experience h2, .online-experience h3, .online-experience span {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
 
-.online-experience li, .online-experience span{
+.online-experience li, .online-experience span {
 	margin-bottom: 20px;
 }
 
@@ -288,12 +281,32 @@ aside[id="slidr-ul-control"] .slidr-control.right, aside[id="slidr-ul-control"] 
 
 aside[id="slidr-ul-control"] .slidr-control.right {
 	right: -25px !important;
-	background: url('/img/right-arrow.png') no-repeat;
+	background: url('/fs-test/img/right-arrow.png') no-repeat;
 }
 
 aside[id="slidr-ul-control"] .slidr-control.left {
 	left: -25px !important;
-	background: url('/img/left-arrow.png') no-repeat;
+	background: url('/fs-test/img/left-arrow.png') no-repeat;
+}
+
+/*SELECT2 OVERRIDES*/
+.select2-container {
+	margin-bottom: 10px;
+}
+
+.select2-container .select2-choice {
+	height: 30px;
+	line-height: 30px;
+}
+
+.select2-container .select2-choice .select2-arrow {
+	background-image: none;
+	width: 30px;
+}
+
+.select2-container .select2-choice .select2-arrow b {
+	background-image: url('/fs-test/img/select-arrow.png');
+	background-size: contain;
 }
 
 /*MEDIA QUERIES*/

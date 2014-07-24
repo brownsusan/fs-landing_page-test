@@ -1,4 +1,9 @@
 $(document).ready(function() {
+	$("#country").select2({
+		allowClear : true,
+		width: '100%'
+	});
+
 	moveContent();
 	// Position Logo
 	var headerHeight = $('header').height(), logoHeight = $('header img').height();
